@@ -1,0 +1,27 @@
+{
+  "name": "atm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "typescript": "^3.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "eslint": "^7.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "json-schema": "^0.2.5",
+    "mocha": "^6.1.4"
+  },
+  "author": "Luis",
+  "license": "ISC"
+}
